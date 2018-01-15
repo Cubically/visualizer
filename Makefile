@@ -1,7 +1,7 @@
 CC  := gcc
-OBJ := visualizer.o stdin.o cubically/src/rubiks.o
+OBJ := main.o stdin.o cubically/src/rubiks.o
 
-override CFLAGS += -g -lm -O3 -DVISUALIZER
+override CFLAGS += -g -lm -O3
 
 visualizer := visualizer
 

@@ -32,7 +32,7 @@ int main(int argc, char **argv)
     int depth = 0;
     while (loop) {
         printf("\e[H\e[2J");
-        printcube();
+        printcube(stderr);
         printf("\n\e[0mDepth offset: %d\e[H",depth);
         move = getchar();
 
