@@ -1,0 +1,3 @@
+[submodule "cubically"]
+	path = cubically
+	url = https://github.com/aaronryank/Cubically
